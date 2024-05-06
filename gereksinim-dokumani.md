@@ -25,6 +25,16 @@
 
 - **Kullanıcı Giriş-Çıkış**
     - Giriş Yapma
+
+    ```
+    Birincil Aktör: Doktor
+    Ön Koşul: Doktorun Sisteme Kayıtlı olması.
+    Son Koşul: Doktor Uygulamaya Erişmeli.
+    Ana Başarı Seneryosu:
+    1- Kullanıcı sistem tarafından atanan kullanıcı adı ve şifre ile sisteme giriş isteği gönderir.
+    2- asda
+    ```
+
     - Çıkış Yapma
 
 - **Cihaz Bağlantısı**
