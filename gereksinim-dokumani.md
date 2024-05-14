@@ -126,19 +126,19 @@
     ```
 - **Bekleyen Hasta Görüntüleme**
     ```
-    UC7: Bekleyen Hasta Görüntüleme
+    UC7:  Hasta Görüntüleme
     Brinicil Aktör: Doktor
     Ön Koşul: Hastalar ve doktor sisteme kayıtlı olmalıdır ve Devam eden bir bağlantı kurma işlemi olmalı.
     Son Koşul: Hastalar sırayla başarılı bir şekilde görüntülenmeli.
     Ana Başarı Senaryosu:
-    1- Doktor bekleyen hasta görüntüleme isteği yollar.
-    2- Sistem bekleyen hastaları görüntüler.
+    1- Doktor hasta görüntüleme isteği gönderir.
+    2- Sistem hastaları görüntüler.
     ```
     ```
     UC8: Bekleyen hasta Seçme
     Birincil Aktör: Doktor
     Ön Koşul: Devam eden bir hasta görüntüleme işlemi olmalıdır.
-    Son Koşul: Hasta görüntü alma sayfası doğru bir şekilde görüntülenmeli.
+    Son Koşul: Hasta görüntü toplama sayfası doğru bir şekilde görüntülenmeli.
     Ana başarı senaryosu:
     1- Doktor bekleyen hastayı seçerek görüntü alma isteği gönderir.
     2- Sistem Hastanın bilgilerini ve sayfayı görüntüler.
@@ -152,7 +152,7 @@
     ```
     UC9: 2D ve 3D Görüntü Toplama
     Birincil Aktör: Doktor
-    Ön Koşul: Bekleyen hasta işlemi tamamlanmış olmalıdır.
+    Ön Koşul: Bekleyen hasta seçme işlemi tamamlanmış olmalıdır.
     Son Koşul: Sistem girilen değerlerdeki görüntüleri hastaya ilişkilendirmiş olmalıdır.
     Ana Başarı Senaryosu:
     1- Doktor açı ve atış sayısını girerek sisteme görüntü çekme isteği gönderir.
