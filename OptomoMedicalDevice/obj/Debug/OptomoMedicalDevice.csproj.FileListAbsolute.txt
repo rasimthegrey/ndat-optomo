@@ -1,0 +1,10 @@
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.csproj.AssemblyReference.cache
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.Properties.Resources.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.csproj.GenerateResource.cache
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.csproj.CoreCompileInputs.cache
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\bin\Debug\OptomoMedicalDevice.exe.config
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\bin\Debug\OptomoMedicalDevice.exe
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\bin\Debug\OptomoMedicalDevice.pdb
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.exe
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.pdb
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\WindowsFormsApp.LoginForm.resources
