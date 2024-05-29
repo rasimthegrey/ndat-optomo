@@ -8,3 +8,5 @@ C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\bin\Debug\OptomoMedicalDe
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.exe
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.pdb
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\WindowsFormsApp.LoginForm.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.MainForm.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.DeviceConnectionControl.resources
