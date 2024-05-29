@@ -79,6 +79,7 @@
             this.Controls.Add(this.username);
             this.Controls.Add(this.password);
             this.Name = "LoginForm";
+            this.Text = "OPTOMO GIRIS YAP";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.Resize += new System.EventHandler(this.LoginForm_Resize);
             this.ResumeLayout(false);

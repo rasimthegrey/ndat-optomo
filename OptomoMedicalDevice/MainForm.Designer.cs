@@ -31,12 +31,16 @@
         {
             this.tabDeviceConnection = new System.Windows.Forms.TabControl();
             this.tabDeviceConncetion = new System.Windows.Forms.TabPage();
+            this.deviceConnectionControl1 = new OptomoMedicalDevice.DeviceConnectionControl();
             this.tabDeviceTest = new System.Windows.Forms.TabPage();
+            this.deviceTestControl1 = new OptomoMedicalDevice.DeviceTestControl();
             this.tabWaitingPatients = new System.Windows.Forms.TabPage();
             this.tabPatientResults = new System.Windows.Forms.TabPage();
-            this.deviceConnectionControl1 = new OptomoMedicalDevice.DeviceConnectionControl();
+            this.waitingPatientsControl1 = new OptomoMedicalDevice.WaitingPatientsControl();
             this.tabDeviceConnection.SuspendLayout();
             this.tabDeviceConncetion.SuspendLayout();
+            this.tabDeviceTest.SuspendLayout();
+            this.tabWaitingPatients.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabDeviceConnection
@@ -63,8 +67,16 @@
             this.tabDeviceConncetion.Text = "Cihaz Baglantisi";
             this.tabDeviceConncetion.UseVisualStyleBackColor = true;
             // 
+            // deviceConnectionControl1
+            // 
+            this.deviceConnectionControl1.Location = new System.Drawing.Point(238, 99);
+            this.deviceConnectionControl1.Name = "deviceConnectionControl1";
+            this.deviceConnectionControl1.Size = new System.Drawing.Size(300, 150);
+            this.deviceConnectionControl1.TabIndex = 0;
+            // 
             // tabDeviceTest
             // 
+            this.tabDeviceTest.Controls.Add(this.deviceTestControl1);
             this.tabDeviceTest.Location = new System.Drawing.Point(4, 22);
             this.tabDeviceTest.Name = "tabDeviceTest";
             this.tabDeviceTest.Padding = new System.Windows.Forms.Padding(3);
@@ -73,8 +85,16 @@
             this.tabDeviceTest.Text = "Cihaz Testi";
             this.tabDeviceTest.UseVisualStyleBackColor = true;
             // 
+            // deviceTestControl1
+            // 
+            this.deviceTestControl1.Location = new System.Drawing.Point(6, 0);
+            this.deviceTestControl1.Name = "deviceTestControl1";
+            this.deviceTestControl1.Size = new System.Drawing.Size(756, 394);
+            this.deviceTestControl1.TabIndex = 0;
+            // 
             // tabWaitingPatients
             // 
+            this.tabWaitingPatients.Controls.Add(this.waitingPatientsControl1);
             this.tabWaitingPatients.Location = new System.Drawing.Point(4, 22);
             this.tabWaitingPatients.Name = "tabWaitingPatients";
             this.tabWaitingPatients.Padding = new System.Windows.Forms.Padding(3);
@@ -93,12 +113,12 @@
             this.tabPatientResults.Text = "Hasta Sonuclari";
             this.tabPatientResults.UseVisualStyleBackColor = true;
             // 
-            // deviceConnectionControl1
+            // waitingPatientsControl1
             // 
-            this.deviceConnectionControl1.Location = new System.Drawing.Point(238, 99);
-            this.deviceConnectionControl1.Name = "deviceConnectionControl1";
-            this.deviceConnectionControl1.Size = new System.Drawing.Size(300, 150);
-            this.deviceConnectionControl1.TabIndex = 0;
+            this.waitingPatientsControl1.Location = new System.Drawing.Point(6, 6);
+            this.waitingPatientsControl1.Name = "waitingPatientsControl1";
+            this.waitingPatientsControl1.Size = new System.Drawing.Size(539, 344);
+            this.waitingPatientsControl1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -107,9 +127,11 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabDeviceConnection);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "OPTOMO";
             this.tabDeviceConnection.ResumeLayout(false);
             this.tabDeviceConncetion.ResumeLayout(false);
+            this.tabDeviceTest.ResumeLayout(false);
+            this.tabWaitingPatients.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -122,5 +144,7 @@
         private System.Windows.Forms.TabPage tabWaitingPatients;
         private System.Windows.Forms.TabPage tabPatientResults;
         private DeviceConnectionControl deviceConnectionControl1;
+        private DeviceTestControl deviceTestControl1;
+        private WaitingPatientsControl waitingPatientsControl1;
     }
 }

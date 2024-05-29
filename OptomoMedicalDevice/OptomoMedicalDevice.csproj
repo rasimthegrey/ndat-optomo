@@ -52,6 +52,12 @@
     <Compile Include="DeviceConnectionControl.Designer.cs">
       <DependentUpon>DeviceConnectionControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeviceTestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DeviceTestControl.Designer.cs">
+      <DependentUpon>DeviceTestControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,8 +72,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WaitingPatientsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WaitingPatientsControl.Designer.cs">
+      <DependentUpon>WaitingPatientsControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DeviceConnectionControl.resx">
       <DependentUpon>DeviceConnectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceTestControl.resx">
+      <DependentUpon>DeviceTestControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -84,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WaitingPatientsControl.resx">
+      <DependentUpon>WaitingPatientsControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

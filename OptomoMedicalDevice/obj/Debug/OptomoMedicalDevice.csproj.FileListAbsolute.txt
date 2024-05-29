@@ -10,3 +10,5 @@ C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDe
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\WindowsFormsApp.LoginForm.resources
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.MainForm.resources
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.DeviceConnectionControl.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.DeviceTestControl.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.WaitingPatientsControl.resources
