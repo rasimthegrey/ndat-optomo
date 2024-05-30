@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AngularTestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AngularTestControl.Designer.cs">
+      <DependentUpon>AngularTestControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeviceConnectionControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -72,12 +78,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerticalMovementTestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VerticalMovementTestControl.Designer.cs">
+      <DependentUpon>VerticalMovementTestControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="WaitingPatientsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="WaitingPatientsControl.Designer.cs">
       <DependentUpon>WaitingPatientsControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="XRayTestContol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XRayTestContol.Designer.cs">
+      <DependentUpon>XRayTestContol.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AngularTestControl.resx">
+      <DependentUpon>AngularTestControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeviceConnectionControl.resx">
       <DependentUpon>DeviceConnectionControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,8 +120,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VerticalMovementTestControl.resx">
+      <DependentUpon>VerticalMovementTestControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WaitingPatientsControl.resx">
       <DependentUpon>WaitingPatientsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRayTestContol.resx">
+      <DependentUpon>XRayTestContol.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
