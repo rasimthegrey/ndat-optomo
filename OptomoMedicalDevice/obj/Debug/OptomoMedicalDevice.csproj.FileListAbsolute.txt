@@ -12,3 +12,6 @@ C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDe
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.DeviceConnectionControl.resources
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.DeviceTestControl.resources
 C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.WaitingPatientsControl.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.XRayTestContol.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.AngularTestControl.resources
+C:\Users\Rasim\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.VerticalMovementTestControl.resources

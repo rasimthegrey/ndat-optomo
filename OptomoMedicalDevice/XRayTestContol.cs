@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace OptomoMedicalDevice
 {
-    public partial class DeviceTestControl : UserControl
+    public partial class XRayTestContol : UserControl
     {
-        public DeviceTestControl()
+        public XRayTestContol()
         {
             InitializeComponent();
+        }
+
+        private void btnXrayTestStart_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("X-RAY Tesi Basarili", "BASARILI", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

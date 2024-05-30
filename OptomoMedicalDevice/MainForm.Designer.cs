@@ -35,8 +35,8 @@
             this.tabDeviceTest = new System.Windows.Forms.TabPage();
             this.deviceTestControl1 = new OptomoMedicalDevice.DeviceTestControl();
             this.tabWaitingPatients = new System.Windows.Forms.TabPage();
-            this.tabPatientResults = new System.Windows.Forms.TabPage();
             this.waitingPatientsControl1 = new OptomoMedicalDevice.WaitingPatientsControl();
+            this.tabPatientResults = new System.Windows.Forms.TabPage();
             this.tabDeviceConnection.SuspendLayout();
             this.tabDeviceConncetion.SuspendLayout();
             this.tabDeviceTest.SuspendLayout();
@@ -103,6 +103,13 @@
             this.tabWaitingPatients.Text = "Bekleyen Hastalar";
             this.tabWaitingPatients.UseVisualStyleBackColor = true;
             // 
+            // waitingPatientsControl1
+            // 
+            this.waitingPatientsControl1.Location = new System.Drawing.Point(0, 3);
+            this.waitingPatientsControl1.Name = "waitingPatientsControl1";
+            this.waitingPatientsControl1.Size = new System.Drawing.Size(768, 397);
+            this.waitingPatientsControl1.TabIndex = 0;
+            // 
             // tabPatientResults
             // 
             this.tabPatientResults.Location = new System.Drawing.Point(4, 22);
@@ -112,13 +119,6 @@
             this.tabPatientResults.TabIndex = 4;
             this.tabPatientResults.Text = "Hasta Sonuclari";
             this.tabPatientResults.UseVisualStyleBackColor = true;
-            // 
-            // waitingPatientsControl1
-            // 
-            this.waitingPatientsControl1.Location = new System.Drawing.Point(6, 6);
-            this.waitingPatientsControl1.Name = "waitingPatientsControl1";
-            this.waitingPatientsControl1.Size = new System.Drawing.Size(539, 344);
-            this.waitingPatientsControl1.TabIndex = 0;
             // 
             // MainForm
             // 
