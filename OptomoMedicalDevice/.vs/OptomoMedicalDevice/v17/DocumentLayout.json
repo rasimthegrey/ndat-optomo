@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\verticalmovementtestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:verticalmovementtestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\verticalmovementtestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:verticalmovementtestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\devicetestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:devicetestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\angulartestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:angulartestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\projection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:projection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\angulartestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:angulartestcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VerticalMovementTestControl.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\VerticalMovementTestControl.cs",
-              "RelativeDocumentMoniker": "VerticalMovementTestControl.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\VerticalMovementTestControl.cs",
-              "RelativeToolTip": "VerticalMovementTestControl.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAABAAAAA",
+              "DocumentIndex": 5,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAASwI4AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T23:33:22.027Z",
+              "WhenOpened": "2024-05-31T10:58:10.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T10:56:12.578Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projection.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.Designer.cs",
+              "RelativeDocumentMoniker": "Projection.Designer.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.Designer.cs",
+              "RelativeToolTip": "Projection.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T10:45:44.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VerticalMovementTestControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\VerticalMovementTestControl.cs",
-              "RelativeDocumentMoniker": "VerticalMovementTestControl.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\VerticalMovementTestControl.cs [Design]",
-              "RelativeToolTip": "VerticalMovementTestControl.cs [Design]",
+              "Title": "Projection.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs",
+              "RelativeDocumentMoniker": "Projection.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs [Design]",
+              "RelativeToolTip": "Projection.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T23:28:42.267Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AngularTestControl.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\AngularTestControl.cs",
-              "RelativeDocumentMoniker": "AngularTestControl.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\AngularTestControl.cs",
-              "RelativeToolTip": "AngularTestControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T23:10:54.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AngularTestControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\AngularTestControl.cs",
-              "RelativeDocumentMoniker": "AngularTestControl.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\AngularTestControl.cs [Design]",
-              "RelativeToolTip": "AngularTestControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T23:05:27.827Z",
+              "WhenOpened": "2024-05-31T10:13:19.252Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeviceTestControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\DeviceTestControl.cs",
-              "RelativeDocumentMoniker": "DeviceTestControl.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\DeviceTestControl.cs [Design]",
-              "RelativeToolTip": "DeviceTestControl.cs [Design]",
+              "Title": "Projection.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs",
+              "RelativeDocumentMoniker": "Projection.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs",
+              "RelativeToolTip": "Projection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T22:13:51.835Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-31T10:13:25.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WaitingPatientsControl.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\WaitingPatientsControl.cs",
+              "RelativeDocumentMoniker": "WaitingPatientsControl.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\WaitingPatientsControl.cs",
+              "RelativeToolTip": "WaitingPatientsControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T00:04:04.788Z",
+              "EditorCaption": ""
             }
           ]
         }
