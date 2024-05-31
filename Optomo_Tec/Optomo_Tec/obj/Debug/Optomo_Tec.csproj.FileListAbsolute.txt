@@ -1,0 +1,14 @@
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\bin\Debug\Optomo_Tec.exe.config
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\bin\Debug\Optomo_Tec.exe
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\bin\Debug\Optomo_Tec.pdb
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.csproj.AssemblyReference.cache
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.Properties.Resources.resources
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.csproj.GenerateResource.cache
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.csproj.CoreCompileInputs.cache
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.exe
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.pdb
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.MainForm.resources
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.LoginForm.resources
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.ConnectionForm.resources
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.TestForm.resources
+C:\Users\curaa\OneDrive\Masaüstü\Optomo Deneme\Optomo_Tec\Optomo_Tec\obj\Debug\Optomo_Tec.waitPatientForm.resources
