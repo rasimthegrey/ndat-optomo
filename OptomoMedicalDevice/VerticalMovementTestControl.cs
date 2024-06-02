@@ -39,5 +39,40 @@ namespace OptomoMedicalDevice
              
             
         }
+
+        private void numScanningAngle_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblScanningAngle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDirection_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbDirection_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMovementDistance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numMovementDistance_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -17,5 +17,34 @@ namespace OptomoMedicalDevice
             InitializeComponent();
         }
 
+        private void tabWaitingPatients_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deviceConnectionControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabDeviceConncetion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void waitingPatientsControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deviceTestControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

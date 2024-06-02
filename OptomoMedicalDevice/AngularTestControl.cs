@@ -27,5 +27,25 @@ namespace OptomoMedicalDevice
             MessageBox.Show(msg, "BASARILI", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void lblAngularScanningTest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblScanningAngle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numScanningAngle_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

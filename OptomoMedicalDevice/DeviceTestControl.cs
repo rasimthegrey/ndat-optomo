@@ -16,5 +16,10 @@ namespace OptomoMedicalDevice
         {
             InitializeComponent();
         }
+
+        private void xRayTestContol1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

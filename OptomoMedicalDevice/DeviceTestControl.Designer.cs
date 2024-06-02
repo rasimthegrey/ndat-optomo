@@ -1,4 +1,7 @@
-﻿namespace OptomoMedicalDevice
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+namespace OptomoMedicalDevice
 {
     partial class DeviceTestControl
     {
@@ -44,59 +47,68 @@
             // tabDeviceTestList
             // 
             this.tabDeviceTestList.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.tabDeviceTestList.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.tabDeviceTestList.Controls.Add(this.tabXrayTest);
             this.tabDeviceTestList.Controls.Add(this.tabPage2);
             this.tabDeviceTestList.Controls.Add(this.tabPage3);
+            this.tabDeviceTestList.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.tabDeviceTestList.ItemSize = new System.Drawing.Size(42, 150);
             this.tabDeviceTestList.Location = new System.Drawing.Point(3, 3);
+            this.tabDeviceTestList.Margin = new System.Windows.Forms.Padding(0);
             this.tabDeviceTestList.Multiline = true;
             this.tabDeviceTestList.Name = "tabDeviceTestList";
             this.tabDeviceTestList.SelectedIndex = 0;
-            this.tabDeviceTestList.Size = new System.Drawing.Size(642, 400);
+            this.tabDeviceTestList.Size = new System.Drawing.Size(800, 400);
             this.tabDeviceTestList.TabIndex = 0;
+            this.tabDeviceTestList.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabDeviceTestList_DrawItem);
             // 
             // tabXrayTest
             // 
             this.tabXrayTest.Controls.Add(this.xRayTestContol1);
-            this.tabXrayTest.Location = new System.Drawing.Point(23, 4);
+            this.tabXrayTest.Location = new System.Drawing.Point(154, 4);
             this.tabXrayTest.Name = "tabXrayTest";
             this.tabXrayTest.Padding = new System.Windows.Forms.Padding(3);
-            this.tabXrayTest.Size = new System.Drawing.Size(615, 392);
+            this.tabXrayTest.Size = new System.Drawing.Size(642, 392);
             this.tabXrayTest.TabIndex = 0;
             this.tabXrayTest.Text = "X-RAY TEST";
             this.tabXrayTest.UseVisualStyleBackColor = true;
             // 
             // xRayTestContol1
             // 
-            this.xRayTestContol1.Location = new System.Drawing.Point(0, 0);
+            this.xRayTestContol1.BackColor = System.Drawing.Color.White;
+            this.xRayTestContol1.Location = new System.Drawing.Point(0, -5);
             this.xRayTestContol1.Name = "xRayTestContol1";
-            this.xRayTestContol1.Size = new System.Drawing.Size(619, 396);
+            this.xRayTestContol1.Size = new System.Drawing.Size(660, 400);
             this.xRayTestContol1.TabIndex = 0;
+            this.xRayTestContol1.Load += new System.EventHandler(this.xRayTestContol1_Load);
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.angularTestControl1);
-            this.tabPage2.Location = new System.Drawing.Point(23, 4);
+            this.tabPage2.Location = new System.Drawing.Point(154, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(615, 392);
+            this.tabPage2.Size = new System.Drawing.Size(642, 392);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ACISAL TARAMA TESTI";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // angularTestControl1
             // 
+            this.angularTestControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.angularTestControl1.Location = new System.Drawing.Point(0, 0);
+            this.angularTestControl1.Margin = new System.Windows.Forms.Padding(0);
             this.angularTestControl1.Name = "angularTestControl1";
-            this.angularTestControl1.Size = new System.Drawing.Size(619, 396);
+            this.angularTestControl1.Size = new System.Drawing.Size(660, 403);
             this.angularTestControl1.TabIndex = 0;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.verticalMovementTestControl1);
-            this.tabPage3.Location = new System.Drawing.Point(23, 4);
+            this.tabPage3.Location = new System.Drawing.Point(154, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(615, 392);
+            this.tabPage3.Size = new System.Drawing.Size(642, 392);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "YATAY HAREKET TESTI";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -105,7 +117,7 @@
             // 
             this.verticalMovementTestControl1.Location = new System.Drawing.Point(0, -4);
             this.verticalMovementTestControl1.Name = "verticalMovementTestControl1";
-            this.verticalMovementTestControl1.Size = new System.Drawing.Size(619, 400);
+            this.verticalMovementTestControl1.Size = new System.Drawing.Size(660, 400);
             this.verticalMovementTestControl1.TabIndex = 0;
             // 
             // DeviceTestControl
@@ -121,6 +133,47 @@
             this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
 
+        }
+        private void tabDeviceTestList_DrawItem(object sender, DrawItemEventArgs e)
+        {
+
+            //Get the working area of the TabControl main control
+            Rectangle rec = tabDeviceTestList.ClientRectangle;
+            //Create a StringFormat object to set the layout of the label text
+            StringFormat StrFormat = new StringFormat();
+            StrFormat.LineAlignment = StringAlignment.Center;// Set the text to be centered vertically
+            StrFormat.Alignment = StringAlignment.Center;// Set the text to be centered horizontally
+
+            // The background fill color of the label, it can also be a picture (e.Graphics.DrawImage)
+            SolidBrush backColor = new SolidBrush(Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38))))));
+            SolidBrush backColor2 = new SolidBrush(Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(92)))), ((int)(((byte)(92))))));
+
+            SolidBrush fontColor;// Label font color
+                                 //Draw the background of the main control
+            e.Graphics.FillRectangle(backColor2, rec);
+
+            //Draw label style
+            Font fntTab = e.Font;
+            Brush bshBack = new SolidBrush(Color.White);
+
+            for (int i = 0; i < tabDeviceTestList.TabPages.Count; i++)
+            {
+                bool bSelected = (tabDeviceTestList.SelectedIndex == i);
+                Rectangle recBounds = tabDeviceTestList.GetTabRect(i);
+                RectangleF tabTextArea = (RectangleF)tabDeviceTestList.GetTabRect(i);
+                if (bSelected)
+                {
+                    e.Graphics.FillRectangle(bshBack, recBounds);
+                    fontColor = new SolidBrush(Color.Black);
+                    e.Graphics.DrawString(tabDeviceTestList.TabPages[i].Text, fntTab, fontColor, tabTextArea, StrFormat);
+                }
+                else
+                {
+                    e.Graphics.FillRectangle(backColor2, recBounds);
+                    fontColor = new SolidBrush(Color.White);
+                    e.Graphics.DrawString(tabDeviceTestList.TabPages[i].Text, fntTab, fontColor, tabTextArea, StrFormat);
+                }
+            }
         }
 
         #endregion

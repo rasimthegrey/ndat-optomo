@@ -154,6 +154,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VerticalMovementTestControl.resx">
       <DependentUpon>VerticalMovementTestControl.cs</DependentUpon>
@@ -178,5 +179,52 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical_logo_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical_logo_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bekleyen Hastalar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cihaz Bağlantısı - Bağlandı.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cihaz Bağlantısı.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cihaz Testi - Açısal Tarama Testi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cihaz Testi - XRay Testi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cihaz Testi - Yatay Hareket Testi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hasta Sonuç Detayı.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hasta Sonuçları.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login - Error Statement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Projeksiyon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_bg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"
+(if exist "$(TargetDir)*old.pdb" del "$(TargetDir)*old.pdb") &amp; (if exist "$(TargetDir)*.pdb" ren "$(TargetDir)*.pdb" *.old.pdb)</PreBuildEvent>
+  </PropertyGroup>
 </Project>
