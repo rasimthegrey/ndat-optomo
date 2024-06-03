@@ -65,7 +65,6 @@ C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDe
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.Projection.resources
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.Properties.Resources.resources
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.VerticalMovementTestControl.resources
-C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.WaitingPatientList.resources
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.XRayTestContol.resources
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.csproj.GenerateResource.cache
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.csproj.CoreCompileInputs.cache
@@ -73,3 +72,5 @@ C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDe
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.exe
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.pdb
 C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\bin\Debug\OptomoMedicalDevice.pdb
+C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.WaitingPatientsControl.resources
+C:\Users\parce\Desktop\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice.PatientResultsControl.resources

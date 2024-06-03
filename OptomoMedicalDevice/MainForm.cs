@@ -46,5 +46,10 @@ namespace OptomoMedicalDevice
         {
 
         }
+
+        private void tabPatientResults_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

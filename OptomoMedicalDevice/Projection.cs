@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -19,6 +20,8 @@ namespace OptomoMedicalDevice
         private List<string> imageFiles;
         private int currentImageIndex = 0;
         public string isim;
+        private ListViewItem selectedItem;                                                   //1
+
 
         public Projection(ListViewItem selectedItem)
         {
@@ -27,6 +30,9 @@ namespace OptomoMedicalDevice
             // Display the selected item's details
             lblPatientID.Text = "T.C. Kimlik No : " + selectedItem.SubItems[1].Text;
             lblPatientFullName.Text = "Ad Soyad       : " + selectedItem.SubItems[2].Text;
+
+            this.selectedItem = selectedItem;                                               //1
+
 
             // Buton Click olaylarını ayarlayın
             btnCekimBaslat.Click += new EventHandler(btnCekimBaslat_Click);
@@ -60,6 +66,11 @@ namespace OptomoMedicalDevice
 
         private void btnCekimBitir_Click(object sender, EventArgs e)
         {
+            string patientID = selectedItem.SubItems[1].Text;                       //1
+            string patientFullName = selectedItem.SubItems[2].Text;                 //1
+            string queueNo = selectedItem.SubItems[0].Text;                         //1
+
+
             // Hedef klasör yolu
             string targetDirectory = @"C:\Users\parce\Desktop\ndat-optomo\Hastalar\";
 
@@ -101,10 +112,28 @@ namespace OptomoMedicalDevice
                 }
             }
 
+            AddInfoToJson(patientID, patientFullName, patientDirectory);                                              //1                 
+
+
             // Pencereyi kapat
             this.Close();
         }
+        private void AddInfoToJson(string patientID, string patientFullName, string patientDirectory)
+        {
+            // Hedef JSON dosyası yolu
+            string jsonFilePath = Path.Combine(patientDirectory, "hasta_sonucu.json");
 
+            // JSON verisi oluşturun
+            var jsonData = new
+            {
+                patientID = patientID,
+                patientFullName = patientFullName
+            };
+
+            // JSON verisini dosyaya yazın
+            string jsonString = JsonSerializer.Serialize(jsonData);
+            File.WriteAllText(jsonFilePath, jsonString);
+        }
         private void timer_Tick(object sender, EventArgs e)
         {
             if (currentImageIndex < imageFiles.Count)

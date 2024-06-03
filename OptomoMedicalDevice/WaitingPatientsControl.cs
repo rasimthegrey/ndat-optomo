@@ -6,14 +6,15 @@ using System.Windows.Forms;
 
 namespace OptomoMedicalDevice
 {
-    public class WaitingPatientList
-    {
-        public string QueueNumber { get; set; }
-        public string PatientID { get; set; }
-        public string PatientFullName { get; set; }
-    }
+
     public partial class WaitingPatientsControl : UserControl
     {
+        public class WaitingPatientList
+        {
+            public string QueueNumber { get; set; }
+            public string PatientID { get; set; }
+            public string PatientFullName { get; set; }
+        }
         public WaitingPatientsControl()
         {
             InitializeComponent();
@@ -36,6 +37,7 @@ namespace OptomoMedicalDevice
             }
         }
 
+
         private void listWaitingPatients_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             if (listWaitingPatients.SelectedItems.Count > 0)
@@ -47,6 +49,11 @@ namespace OptomoMedicalDevice
                 Projection projectionForm = new Projection(selectedItem);
                 projectionForm.Show();
             }
+        }
+
+        private void listWaitingPatients_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

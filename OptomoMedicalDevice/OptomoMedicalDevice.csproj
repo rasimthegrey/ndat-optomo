@@ -80,6 +80,9 @@
     <Compile Include="AngularTestControl.Designer.cs">
       <DependentUpon>AngularTestControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatientResultsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="DeviceConnectionControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -118,7 +121,9 @@
     <Compile Include="VerticalMovementTestControl.Designer.cs">
       <DependentUpon>VerticalMovementTestControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="WaitingPatientsControl.cs" />
+    <Compile Include="WaitingPatientsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="WaitingPatientsControl.Designer.cs">
       <DependentUpon>WaitingPatientsControl.cs</DependentUpon>
     </Compile>
@@ -142,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientResultsControl.resx">
+      <DependentUpon>PatientResultsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Projection.resx">
       <DependentUpon>Projection.cs</DependentUpon>
