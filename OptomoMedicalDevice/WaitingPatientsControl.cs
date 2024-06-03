@@ -23,7 +23,7 @@ namespace OptomoMedicalDevice
         private void WaitingPatientsControl_Load(object sender, EventArgs e)
         {
             // Load JSON data
-            string jsonWaitingPatients = "C:\\Users\\parce\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\waitingPatients.json";
+            string jsonWaitingPatients = "../../waitingPatients.json";
             string jsonData = File.ReadAllText(jsonWaitingPatients);
 
             List<WaitingPatientList> items = JsonSerializer.Deserialize<List<WaitingPatientList>>(jsonData);

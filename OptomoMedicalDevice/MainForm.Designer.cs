@@ -42,11 +42,13 @@ namespace OptomoMedicalDevice
             this.tabWaitingPatients = new System.Windows.Forms.TabPage();
             this.waitingPatientsControl1 = new OptomoMedicalDevice.WaitingPatientsControl();
             this.tabPatientResults = new System.Windows.Forms.TabPage();
+            this.patientResultsControl1 = new OptomoMedicalDevice.PatientResultsControl();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabCDeviceConnection.SuspendLayout();
             this.tabDeviceConncetion.SuspendLayout();
             this.tabDeviceTest.SuspendLayout();
             this.tabWaitingPatients.SuspendLayout();
+            this.tabPatientResults.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,7 +65,7 @@ namespace OptomoMedicalDevice
             this.tabCDeviceConnection.Name = "tabCDeviceConnection";
             this.tabCDeviceConnection.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tabCDeviceConnection.SelectedIndex = 0;
-            this.tabCDeviceConnection.Size = new System.Drawing.Size(800, 400);
+            this.tabCDeviceConnection.Size = new System.Drawing.Size(800, 426);
             this.tabCDeviceConnection.TabIndex = 0;
             this.tabCDeviceConnection.TabStop = false;
             this.tabCDeviceConnection.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabCDeviceConnection_DrawItem);
@@ -98,7 +100,7 @@ namespace OptomoMedicalDevice
             this.tabDeviceTest.Location = new System.Drawing.Point(4, 34);
             this.tabDeviceTest.Name = "tabDeviceTest";
             this.tabDeviceTest.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDeviceTest.Size = new System.Drawing.Size(792, 362);
+            this.tabDeviceTest.Size = new System.Drawing.Size(792, 388);
             this.tabDeviceTest.TabIndex = 2;
             this.tabDeviceTest.Text = "Cihaz Testi";
             this.tabDeviceTest.UseVisualStyleBackColor = true;
@@ -106,9 +108,9 @@ namespace OptomoMedicalDevice
             // deviceTestControl1
             // 
             this.deviceTestControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.deviceTestControl1.Location = new System.Drawing.Point(6, 0);
+            this.deviceTestControl1.Location = new System.Drawing.Point(-4, 0);
             this.deviceTestControl1.Name = "deviceTestControl1";
-            this.deviceTestControl1.Size = new System.Drawing.Size(792, 366);
+            this.deviceTestControl1.Size = new System.Drawing.Size(802, 392);
             this.deviceTestControl1.TabIndex = 0;
             this.deviceTestControl1.Load += new System.EventHandler(this.deviceTestControl1_Load);
             // 
@@ -137,6 +139,7 @@ namespace OptomoMedicalDevice
             // tabPatientResults
             // 
             this.tabPatientResults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.tabPatientResults.Controls.Add(this.patientResultsControl1);
             this.tabPatientResults.Location = new System.Drawing.Point(4, 34);
             this.tabPatientResults.Name = "tabPatientResults";
             this.tabPatientResults.Padding = new System.Windows.Forms.Padding(3);
@@ -145,6 +148,13 @@ namespace OptomoMedicalDevice
             this.tabPatientResults.Text = "Hasta Sonuclari";
             this.tabPatientResults.UseVisualStyleBackColor = true;
             this.tabPatientResults.Click += new System.EventHandler(this.tabPatientResults_Click);
+            // 
+            // patientResultsControl1
+            // 
+            this.patientResultsControl1.Location = new System.Drawing.Point(6, 3);
+            this.patientResultsControl1.Name = "patientResultsControl1";
+            this.patientResultsControl1.Size = new System.Drawing.Size(780, 353);
+            this.patientResultsControl1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -161,16 +171,16 @@ namespace OptomoMedicalDevice
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.ClientSize = new System.Drawing.Size(834, 461);
+            this.ClientSize = new System.Drawing.Size(834, 488);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabCDeviceConnection);
             this.Name = "MainForm";
             this.Text = "OPTOMO";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabCDeviceConnection.ResumeLayout(false);
             this.tabDeviceConncetion.ResumeLayout(false);
             this.tabDeviceTest.ResumeLayout(false);
             this.tabWaitingPatients.ResumeLayout(false);
+            this.tabPatientResults.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -228,6 +238,7 @@ namespace OptomoMedicalDevice
         private DeviceTestControl deviceTestControl1;
         private WaitingPatientsControl waitingPatientsControl1;
         private PictureBox pictureBox1;
+        private PatientResultsControl patientResultsControl1;
     }
 
 }

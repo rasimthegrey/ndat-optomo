@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\resultbypatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:resultbypatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\waitingpatients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:waitingpatients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:projection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\resultbypatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:resultbypatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\projection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:projection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\resultbypatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:resultbypatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:waitingpatientscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\patientresultscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:patientresultscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\patientresultscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:patientresultscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|c:\\users\\rasim\\desktop\\ndat-optomo\\optomomedicaldevice\\patientresultscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30324B8A-A29D-4F07-B851-7B12D78F1832}|OptomoMedicalDevice.csproj|solutionrelative:patientresultscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,79 +50,119 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAASwI4AAABAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ResultByPatient.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\ResultByPatient.Designer.cs",
+              "RelativeDocumentMoniker": "ResultByPatient.Designer.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\ResultByPatient.Designer.cs",
+              "RelativeToolTip": "ResultByPatient.Designer.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAASwEAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:58:10.964Z",
+              "WhenOpened": "2024-06-03T16:32:14.166Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
+              "Title": "ResultByPatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\ResultByPatient.cs",
+              "RelativeDocumentMoniker": "ResultByPatient.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\ResultByPatient.cs [Design]",
+              "RelativeToolTip": "ResultByPatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:56:12.578Z",
+              "WhenOpened": "2024-06-03T16:08:32.318Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Projection.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.Designer.cs",
-              "RelativeDocumentMoniker": "Projection.Designer.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.Designer.cs",
-              "RelativeToolTip": "Projection.Designer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:45:44.122Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Projection.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs",
-              "RelativeDocumentMoniker": "Projection.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs [Design]",
-              "RelativeToolTip": "Projection.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:13:19.252Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Projection.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs",
-              "RelativeDocumentMoniker": "Projection.cs",
-              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\Projection.cs",
-              "RelativeToolTip": "Projection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:13:25.214Z",
+              "Title": "waitingPatients.json",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\waitingPatients.json",
+              "RelativeDocumentMoniker": "waitingPatients.json",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\waitingPatients.json",
+              "RelativeToolTip": "waitingPatients.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-03T16:57:26.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "ResultByPatient.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\ResultByPatient.cs",
+              "RelativeDocumentMoniker": "ResultByPatient.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\ResultByPatient.cs",
+              "RelativeToolTip": "ResultByPatient.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADgvycAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:11:40.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientResultsControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\PatientResultsControl.Designer.cs",
+              "RelativeDocumentMoniker": "PatientResultsControl.Designer.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\PatientResultsControl.Designer.cs",
+              "RelativeToolTip": "PatientResultsControl.Designer.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAlwGAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:20:52.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PatientResultsControl.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\PatientResultsControl.cs",
+              "RelativeDocumentMoniker": "PatientResultsControl.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\PatientResultsControl.cs",
+              "RelativeToolTip": "PatientResultsControl.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAWwEEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:05:36.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientResultsControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\PatientResultsControl.cs",
+              "RelativeDocumentMoniker": "PatientResultsControl.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\PatientResultsControl.cs [Design]",
+              "RelativeToolTip": "PatientResultsControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:05:33.739Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WaitingPatientsControl.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\WaitingPatientsControl.cs",
               "RelativeDocumentMoniker": "WaitingPatientsControl.cs",
               "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\WaitingPatientsControl.cs",
               "RelativeToolTip": "WaitingPatientsControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wCwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T00:04:04.788Z",
+              "WhenOpened": "2024-06-03T16:05:21.35Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WaitingPatientsControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\WaitingPatientsControl.cs",
+              "RelativeDocumentMoniker": "WaitingPatientsControl.cs",
+              "ToolTip": "C:\\Users\\Rasim\\Desktop\\ndat-optomo\\OptomoMedicalDevice\\WaitingPatientsControl.cs [Design]",
+              "RelativeToolTip": "WaitingPatientsControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:05:11.167Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

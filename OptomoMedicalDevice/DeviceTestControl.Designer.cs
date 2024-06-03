@@ -38,10 +38,13 @@ namespace OptomoMedicalDevice
             this.angularTestControl1 = new OptomoMedicalDevice.AngularTestControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.verticalMovementTestControl1 = new OptomoMedicalDevice.VerticalMovementTestControl();
+            this.tabKapakKontrol = new System.Windows.Forms.TabPage();
+            this.lidCoverControl1 = new OptomoMedicalDevice.LidCoverControl();
             this.tabDeviceTestList.SuspendLayout();
             this.tabXrayTest.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabKapakKontrol.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabDeviceTestList
@@ -51,14 +54,16 @@ namespace OptomoMedicalDevice
             this.tabDeviceTestList.Controls.Add(this.tabXrayTest);
             this.tabDeviceTestList.Controls.Add(this.tabPage2);
             this.tabDeviceTestList.Controls.Add(this.tabPage3);
+            this.tabDeviceTestList.Controls.Add(this.tabKapakKontrol);
             this.tabDeviceTestList.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
-            this.tabDeviceTestList.ItemSize = new System.Drawing.Size(42, 150);
-            this.tabDeviceTestList.Location = new System.Drawing.Point(3, 3);
+            this.tabDeviceTestList.ItemSize = new System.Drawing.Size(20, 150);
+            this.tabDeviceTestList.Location = new System.Drawing.Point(3, 12);
             this.tabDeviceTestList.Margin = new System.Windows.Forms.Padding(0);
             this.tabDeviceTestList.Multiline = true;
             this.tabDeviceTestList.Name = "tabDeviceTestList";
             this.tabDeviceTestList.SelectedIndex = 0;
-            this.tabDeviceTestList.Size = new System.Drawing.Size(800, 400);
+            this.tabDeviceTestList.Size = new System.Drawing.Size(765, 391);
+            this.tabDeviceTestList.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabDeviceTestList.TabIndex = 0;
             this.tabDeviceTestList.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabDeviceTestList_DrawItem);
             // 
@@ -68,7 +73,7 @@ namespace OptomoMedicalDevice
             this.tabXrayTest.Location = new System.Drawing.Point(154, 4);
             this.tabXrayTest.Name = "tabXrayTest";
             this.tabXrayTest.Padding = new System.Windows.Forms.Padding(3);
-            this.tabXrayTest.Size = new System.Drawing.Size(642, 392);
+            this.tabXrayTest.Size = new System.Drawing.Size(607, 383);
             this.tabXrayTest.TabIndex = 0;
             this.tabXrayTest.Text = "X-RAY TEST";
             this.tabXrayTest.UseVisualStyleBackColor = true;
@@ -88,7 +93,7 @@ namespace OptomoMedicalDevice
             this.tabPage2.Location = new System.Drawing.Point(154, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(642, 392);
+            this.tabPage2.Size = new System.Drawing.Size(607, 383);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ACISAL TARAMA TESTI";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -108,7 +113,7 @@ namespace OptomoMedicalDevice
             this.tabPage3.Location = new System.Drawing.Point(154, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(642, 392);
+            this.tabPage3.Size = new System.Drawing.Size(607, 383);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "YATAY HAREKET TESTI";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -119,6 +124,25 @@ namespace OptomoMedicalDevice
             this.verticalMovementTestControl1.Name = "verticalMovementTestControl1";
             this.verticalMovementTestControl1.Size = new System.Drawing.Size(660, 400);
             this.verticalMovementTestControl1.TabIndex = 0;
+            // 
+            // tabKapakKontrol
+            // 
+            this.tabKapakKontrol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabKapakKontrol.Controls.Add(this.lidCoverControl1);
+            this.tabKapakKontrol.Location = new System.Drawing.Point(154, 4);
+            this.tabKapakKontrol.Name = "tabKapakKontrol";
+            this.tabKapakKontrol.Padding = new System.Windows.Forms.Padding(3);
+            this.tabKapakKontrol.Size = new System.Drawing.Size(607, 383);
+            this.tabKapakKontrol.TabIndex = 3;
+            this.tabKapakKontrol.Text = "KAPAK KONTROL";
+            this.tabKapakKontrol.UseVisualStyleBackColor = true;
+            // 
+            // lidCoverControl1
+            // 
+            this.lidCoverControl1.Location = new System.Drawing.Point(0, -36);
+            this.lidCoverControl1.Name = "lidCoverControl1";
+            this.lidCoverControl1.Size = new System.Drawing.Size(600, 423);
+            this.lidCoverControl1.TabIndex = 0;
             // 
             // DeviceTestControl
             // 
@@ -131,6 +155,7 @@ namespace OptomoMedicalDevice
             this.tabXrayTest.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.tabKapakKontrol.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -185,5 +210,7 @@ namespace OptomoMedicalDevice
         private XRayTestContol xRayTestContol1;
         private AngularTestControl angularTestControl1;
         private VerticalMovementTestControl verticalMovementTestControl1;
+        private TabPage tabKapakKontrol;
+        private LidCoverControl lidCoverControl1;
     }
 }

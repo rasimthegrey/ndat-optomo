@@ -80,9 +80,6 @@
     <Compile Include="AngularTestControl.Designer.cs">
       <DependentUpon>AngularTestControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="PatientResultsControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="DeviceConnectionControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,6 +91,12 @@
     </Compile>
     <Compile Include="DeviceTestControl.Designer.cs">
       <DependentUpon>DeviceTestControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LidCoverControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LidCoverControl.Designer.cs">
+      <DependentUpon>LidCoverControl.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -107,6 +110,12 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatientResultsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientResultsControl.Designer.cs">
+      <DependentUpon>PatientResultsControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Projection.cs">
       <SubType>Form</SubType>
@@ -115,6 +124,12 @@
       <DependentUpon>Projection.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultByPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultByPatient.Designer.cs">
+      <DependentUpon>ResultByPatient.cs</DependentUpon>
+    </Compile>
     <Compile Include="VerticalMovementTestControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -142,6 +157,9 @@
     <EmbeddedResource Include="DeviceTestControl.resx">
       <DependentUpon>DeviceTestControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LidCoverControl.resx">
+      <DependentUpon>LidCoverControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +182,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ResultByPatient.resx">
+      <DependentUpon>ResultByPatient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VerticalMovementTestControl.resx">
       <DependentUpon>VerticalMovementTestControl.cs</DependentUpon>
     </EmbeddedResource>

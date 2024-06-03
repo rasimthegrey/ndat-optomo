@@ -19,14 +19,14 @@ namespace OptomoMedicalDevice
         private Timer timer;
         private List<string> imageFiles;
         private int currentImageIndex = 0;
-        public string isim;
+        public string patientFullName;
         private ListViewItem selectedItem;                                                   //1
 
 
         public Projection(ListViewItem selectedItem)
         {
             InitializeComponent();
-            isim = selectedItem.SubItems[2].Text;
+            patientFullName = selectedItem.SubItems[2].Text;
             // Display the selected item's details
             lblPatientID.Text = "T.C. Kimlik No : " + selectedItem.SubItems[1].Text;
             lblPatientFullName.Text = "Ad Soyad       : " + selectedItem.SubItems[2].Text;
@@ -47,7 +47,7 @@ namespace OptomoMedicalDevice
         private void btnCekimBaslat_Click(object sender, EventArgs e)
         {
             // Görsellerin bulunduğu dizin
-            string imageDirectory = @"C:\Users\parce\Desktop\ndat-optomo\xrayhavuz";
+            string imageDirectory = @"..\..\..\xrayhavuz";
 
             // Görsellerin dosya yollarını al
             imageFiles = new List<string>(Directory.GetFiles(imageDirectory, "*.PNG"));
@@ -72,10 +72,10 @@ namespace OptomoMedicalDevice
 
 
             // Hedef klasör yolu
-            string targetDirectory = @"C:\Users\parce\Desktop\ndat-optomo\Hastalar\";
+            string targetDirectory = @"..\..\Hastalar\";
 
             // Hasta adını alın ve boşlukları alt çizgiyle değiştirin
-            string patientName = isim.Replace(" ", "_");
+            string patientName = patientFullName.Replace(" ", "_");
 
             // Hasta adıyla bir klasör oluşturun (eğer yoksa)
             string patientDirectory = Path.Combine(targetDirectory, patientName);
@@ -143,7 +143,7 @@ namespace OptomoMedicalDevice
                 currentImageIndex++;
 
                 // Eğer tüm görseller eklendiyse timer'ı durdurun
-                if (currentImageIndex == numTaramaAcı.Value)
+                if (currentImageIndex == numShotCount.Value)
                 {
                     timer.Stop();
                 }

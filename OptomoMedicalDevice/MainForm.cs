@@ -37,10 +37,7 @@ namespace OptomoMedicalDevice
 
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void deviceTestControl1_Load(object sender, EventArgs e)
         {
