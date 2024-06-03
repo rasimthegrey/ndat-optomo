@@ -17,9 +17,9 @@ namespace OptomoMedicalDevice
             InitializeComponent();
         }
 
-        private void btnXrayTest_Click(object sender, EventArgs e)
+        private void xRayTestContol1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("X-RAY Testi Basarili", "BASARILI", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
     }
 }

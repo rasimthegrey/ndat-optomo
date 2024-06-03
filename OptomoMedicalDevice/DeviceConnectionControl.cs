@@ -36,5 +36,10 @@ namespace OptomoMedicalDevice
                 MessageBox.Show("Baglanti tipi ve port numarasi bos olamaz!\nLutfen baglanti tipini seciniz ve port numarasini giriniz.", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void cmbConnectionType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

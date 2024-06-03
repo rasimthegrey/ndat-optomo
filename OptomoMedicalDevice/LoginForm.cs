@@ -30,26 +30,30 @@ namespace WindowsFormsApp
             int centerY = this.ClientSize.Height / 2;
 
             // Position the controls centered
+
+            pictureBox1.Left = centerX - pictureBox1.Width / 2;
+            pictureBox1.Top = centerY - 170;
+
             username.Left = centerX - username.Width / 2;
-            username.Top = centerY - 90;
+            username.Top = centerY - 70;
 
             txtUsername.Left = centerX - txtUsername.Width / 2;
-            txtUsername.Top = centerY - 60;
+            txtUsername.Top = centerY - 30;
 
             password.Left = centerX - password.Width / 2;
-            password.Top = centerY - 30;
+            password.Top = centerY ;
 
             txtPassword.Left = centerX - txtPassword.Width / 2;
-            txtPassword.Top = centerY;
+            txtPassword.Top = centerY + 40;
 
             btnLogin.Left = centerX - btnLogin.Width / 2;
-            btnLogin.Top = centerY + 30;
+            btnLogin.Top = centerY + 110;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = "admin";
-            string password = "password123";
+            string password = "1";
 
             string inputUsername = txtUsername.Text;
             string inputPassword = txtPassword.Text;
@@ -65,6 +69,31 @@ namespace WindowsFormsApp
             {
                 MessageBox.Show("Gecersiz kullanici adi veya parola.", "Giris Basarisiz", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void username_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
