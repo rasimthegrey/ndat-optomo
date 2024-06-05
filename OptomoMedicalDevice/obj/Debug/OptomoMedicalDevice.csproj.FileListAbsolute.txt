@@ -124,3 +124,4 @@ C:\Users\parce\Desktop\finalndat\ndat-optomo\OptomoMedicalDevice\bin\Debug\Helix
 C:\Users\parce\Desktop\finalndat\ndat-optomo\OptomoMedicalDevice\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\parce\Desktop\finalndat\ndat-optomo\OptomoMedicalDevice\bin\Debug\HelixToolkit.xml
 C:\Users\parce\Desktop\finalndat\ndat-optomo\OptomoMedicalDevice\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\parce\Desktop\finalndat\ndat-optomo\OptomoMedicalDevice\obj\Debug\OptomoMedicalDevice._3DModelForm.resources

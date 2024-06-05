@@ -154,14 +154,48 @@ namespace OptomoMedicalDevice
             var material = MaterialHelper.CreateMaterial(Colors.Silver); // İstediğiniz materyali ayarlayabilirsiniz
             return new GeometryModel3D(meshGeometry, material);
         }
+
         private MeshGeometry3D CreateSurfaceFromImage(string imageFile)
         {
-            // Burada, imageFile'dan bir yüzey oluşturmanız gerekiyor.
-            // Bu aşamada, görüntü işleme ve yüzey oluşturma algoritmalarını kullanarak bir MeshGeometry3D oluşturmanız gerekecek.
+            Bitmap bitmap = new Bitmap(imageFile);
+            int width = bitmap.Width;
+            int height = bitmap.Height;
 
-            // Oluşturulan yüzeyi döndürün
-            return new MeshGeometry3D();
+            MeshGeometry3D mesh = new MeshGeometry3D();
+
+            for (int x = 0; x < width; x++)
+            {
+                for (int y = 0; y < height; y++)
+                {
+                    // Piksel değerini alın
+                    System.Drawing.Color pixelColor = bitmap.GetPixel(x, y);
+                    float zValue = pixelColor.R / 255f; // Örnek olarak, pikselin kırmızı bileşenini z değeri olarak kullanıyoruz
+
+                    // Yüzey noktalarını ekleme
+                    mesh.Positions.Add(new Point3D(x, y, zValue));
+
+                    // Yüzey indislerini ayarlama (iki boyutlu görüntü olduğu için x ve y değerleri kullanılır)
+                    if (x < width - 1 && y < height - 1)
+                    {
+                        int currentIndex = x + y * width;
+                        int nextIndex = (x + 1) + y * width;
+                        int bottomIndex = x + (y + 1) * width;
+
+                        // Dörtgenin iki üçgenini oluşturun
+                        mesh.TriangleIndices.Add(currentIndex);
+                        mesh.TriangleIndices.Add(nextIndex);
+                        mesh.TriangleIndices.Add(bottomIndex);
+
+                        mesh.TriangleIndices.Add(nextIndex);
+                        mesh.TriangleIndices.Add(nextIndex + 1);
+                        mesh.TriangleIndices.Add(bottomIndex);
+                    }
+                }
+            }
+
+            return mesh;
         }
+
 
         private void Save3DModelAsSTL(Model3D stlModel, string patientDirectory, string patientName)
         {

@@ -86,8 +86,15 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_3DModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_3DModelForm.Designer.cs">
+      <DependentUpon>_3DModelForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AngularTestControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -207,6 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="XRayTestContol.resx">
       <DependentUpon>XRayTestContol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_3DModelForm.resx">
+      <DependentUpon>_3DModelForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
