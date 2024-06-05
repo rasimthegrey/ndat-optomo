@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp;
 
 namespace OptomoMedicalDevice
 {
@@ -47,6 +48,13 @@ namespace OptomoMedicalDevice
         private void tabPatientResults_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Hide();
         }
     }
 }
