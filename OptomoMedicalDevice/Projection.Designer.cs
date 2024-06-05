@@ -143,6 +143,7 @@
             this.btnCekimBaslat.TabIndex = 8;
             this.btnCekimBaslat.Text = "Çekimi Başlat";
             this.btnCekimBaslat.UseVisualStyleBackColor = false;
+            this.btnCekimBaslat.Click += new System.EventHandler(this.btnCekimBaslat_Click);
             // 
             // btnCekimBitir
             // 

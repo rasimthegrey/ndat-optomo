@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.Json;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using HelixToolkit.Wpf;
+using System.Windows.Media.Media3D;
+using System.Windows.Media;
+
+
 
 
 namespace OptomoMedicalDevice
@@ -47,7 +46,7 @@ namespace OptomoMedicalDevice
         private void btnCekimBaslat_Click(object sender, EventArgs e)
         {
             // Görsellerin bulunduğu dizin
-            string imageDirectory = @"..\..\..\xrayhavuz";
+            string imageDirectory = @"..\..\xrayhavuz";
 
             // Görsellerin dosya yollarını al
             imageFiles = new List<string>(Directory.GetFiles(imageDirectory, "*.PNG"));
@@ -66,57 +65,119 @@ namespace OptomoMedicalDevice
 
         private void btnCekimBitir_Click(object sender, EventArgs e)
         {
-            string patientID = selectedItem.SubItems[1].Text;                       //1
-            string patientFullName = selectedItem.SubItems[2].Text;                 //1
-            string queueNo = selectedItem.SubItems[0].Text;                         //1
-
-
-            // Hedef klasör yolu
-            string targetDirectory = @"..\..\Hastalar\";
-
-            // Hasta adını alın ve boşlukları alt çizgiyle değiştirin
-            string patientName = patientFullName.Replace(" ", "_");
-
-            // Hasta adıyla bir klasör oluşturun (eğer yoksa)
-            string patientDirectory = Path.Combine(targetDirectory, patientName);
-            if (!Directory.Exists(patientDirectory))
+            try
             {
-                Directory.CreateDirectory(patientDirectory);
-            }
+                string patientID = selectedItem.SubItems[1].Text; // Hasta ID'si
+                string patientFullName = selectedItem.SubItems[2].Text; // Hasta adı ve soyadı
+                string queueNo = selectedItem.SubItems[0].Text; // Sıra numarası
 
-            // Her bir PictureBox için
-            foreach (Control control in panelgör.Controls)
-            {
-                if (control is PictureBox)
+                // Hedef klasör yolu
+                string targetDirectory = @"..\..\Hastalar\";
+
+                // Hasta adını alın ve boşlukları alt çizgiyle değiştirin
+                string patientName = patientFullName.Replace(" ", "_");
+
+                // Hasta adıyla bir klasör oluşturun (eğer yoksa)
+                string patientDirectory = Path.Combine(targetDirectory, patientName);
+                if (!Directory.Exists(patientDirectory))
                 {
-                    // PictureBox'ın Image'ını alın
-                    Image image = ((PictureBox)control).Image;
+                    Directory.CreateDirectory(patientDirectory);
+                }
 
-                    // Dosya adını ve sıra numarasını ekleyerek dosya yolu oluşturun
-                    string fileName = patientName + "_" + currentImageIndex.ToString("D4") + ".png";
-                    string filePath = Path.Combine(patientDirectory, fileName);
-
-                    // Eğer dosya zaten varsa, yeni bir isimle kaydedin
-                    int counter = 1;
-                    while (File.Exists(filePath))
+                // Her bir PictureBox için
+                foreach (Control control in panelgör.Controls)
+                {
+                    if (control is PictureBox)
                     {
-                        fileName = patientName + "_" + currentImageIndex.ToString("D4") + "_" + counter.ToString() + ".png";
-                        filePath = Path.Combine(patientDirectory, fileName);
-                        counter++;
+                        // PictureBox'ın Image'ını alın
+                        Image image = ((PictureBox)control).Image;
+
+                        // Dosya adını ve sıra numarasını ekleyerek dosya yolu oluşturun
+                        string fileName = patientName + "_" + currentImageIndex.ToString("D4") + ".png";
+                        string filePath = Path.Combine(patientDirectory, fileName);
+
+                        // Eğer dosya zaten varsa, yeni bir isimle kaydedin
+                        int counter = 1;
+                        while (File.Exists(filePath))
+                        {
+                            fileName = patientName + "_" + currentImageIndex.ToString("D4") + "_" + counter.ToString() + ".png";
+                            filePath = Path.Combine(patientDirectory, fileName);
+                            counter++;
+                        }
+
+                        // Görseli PNG formatında kaydedin
+                        image.Save(filePath, System.Drawing.Imaging.ImageFormat.Png);
+
+                        currentImageIndex++;
                     }
+                }
 
-                    // Görseli PNG formatında kaydedin
-                    image.Save(filePath, System.Drawing.Imaging.ImageFormat.Png);
+                // Görüntülerden 3D model oluştur
+                var stlModel = Create3DModelFromImages(imageFiles);
 
-                    currentImageIndex++;
+                // Oluşturulan 3D modeli STL formatında kaydet
+                Save3DModelAsSTL(stlModel, patientDirectory, patientName);
+
+                // JSON dosyasına bilgileri ekle
+                AddInfoToJson(patientID, patientFullName, patientDirectory);
+
+                // Pencereyi kapat
+                this.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Kayıt işlemi sırasında hata oluştu. " + ex.Message);
+            }
+        }
+        private Model3D Create3DModelFromImages(List<string> imageFiles)
+        {
+            // Helix Toolkit kullanarak bir MeshBuilder oluşturun
+            var meshBuilder = new MeshBuilder();
+
+            // Her bir görüntüyü döngüye alarak 3D modeli oluşturun
+            foreach (var imageFile in imageFiles)
+            {
+                // Görseli yüzey olarak eklemek için yüzey oluştur
+                var surface = CreateSurfaceFromImage(imageFile);
+
+                // Oluşturulan yüzeyin üçgenlerini ekleyin
+                for (int i = 0; i < surface.TriangleIndices.Count; i += 3)
+                {
+                    meshBuilder.AddTriangle(surface.Positions[surface.TriangleIndices[i]],
+                                            surface.Positions[surface.TriangleIndices[i + 1]],
+                                            surface.Positions[surface.TriangleIndices[i + 2]]);
                 }
             }
 
-            AddInfoToJson(patientID, patientFullName, patientDirectory);                                              //1                 
+            // MeshBuilder'daki mesh'i alarak Model3D öğesine dönüştürün
+            var meshGeometry = meshBuilder.ToMesh();
+            var material = MaterialHelper.CreateMaterial(Colors.Silver); // İstediğiniz materyali ayarlayabilirsiniz
+            return new GeometryModel3D(meshGeometry, material);
+        }
+        private MeshGeometry3D CreateSurfaceFromImage(string imageFile)
+        {
+            // Burada, imageFile'dan bir yüzey oluşturmanız gerekiyor.
+            // Bu aşamada, görüntü işleme ve yüzey oluşturma algoritmalarını kullanarak bir MeshGeometry3D oluşturmanız gerekecek.
 
+            // Oluşturulan yüzeyi döndürün
+            return new MeshGeometry3D();
+        }
 
-            // Pencereyi kapat
-            this.Close();
+        private void Save3DModelAsSTL(Model3D stlModel, string patientDirectory, string patientName)
+        {
+            // STL dosyasının adını oluşturun (hastanın ismi ile)
+            string stlFileName = patientName + "_model.stl";
+
+            // STL dosyasının tam yolunu oluşturun
+            string stlFilePath = Path.Combine(patientDirectory, stlFileName);
+
+            // STL dosyasını oluşturmak için bir akım oluşturun
+            using (FileStream fs = new FileStream(stlFilePath, FileMode.Create))
+            {
+                // StlExporter sınıfını kullanarak Model3D nesnesini STL dosyasına dönüştürün
+                StlExporter exporter = new StlExporter();
+                exporter.Export(stlModel, fs);
+            }
         }
         private void AddInfoToJson(string patientID, string patientFullName, string patientDirectory)
         {

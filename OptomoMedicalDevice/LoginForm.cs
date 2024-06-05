@@ -50,6 +50,12 @@ namespace WindowsFormsApp
             btnLogin.Top = centerY + 110;
         }
 
+        private void LoginForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btnLogin_Click(sender, e);
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = "admin";
