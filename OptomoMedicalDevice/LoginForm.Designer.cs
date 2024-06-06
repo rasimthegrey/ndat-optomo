@@ -106,6 +106,7 @@
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.BackgroundImage = global::OptomoMedicalDevice.Properties.Resources.login_bg;
@@ -116,6 +117,7 @@
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.username);
             this.Controls.Add(this.password);
+            this.KeyPreview = true;
             this.Name = "LoginForm";
             this.Text = " ";
             this.Load += new System.EventHandler(this.LoginForm_Load);
