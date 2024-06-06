@@ -44,6 +44,7 @@ namespace OptomoMedicalDevice
             this.tabPatientResults = new System.Windows.Forms.TabPage();
             this.patientResultsControl1 = new OptomoMedicalDevice.PatientResultsControl();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnLogOut = new System.Windows.Forms.Button();
             this.tabCDeviceConnection.SuspendLayout();
             this.tabDeviceConncetion.SuspendLayout();
             this.tabDeviceTest.SuspendLayout();
@@ -78,7 +79,7 @@ namespace OptomoMedicalDevice
             this.tabDeviceConncetion.Location = new System.Drawing.Point(4, 34);
             this.tabDeviceConncetion.Name = "tabDeviceConncetion";
             this.tabDeviceConncetion.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDeviceConncetion.Size = new System.Drawing.Size(792, 362);
+            this.tabDeviceConncetion.Size = new System.Drawing.Size(792, 388);
             this.tabDeviceConncetion.TabIndex = 1;
             this.tabDeviceConncetion.Text = "Cihaz Baglantisi";
             this.tabDeviceConncetion.Click += new System.EventHandler(this.tabDeviceConncetion_Click);
@@ -121,7 +122,7 @@ namespace OptomoMedicalDevice
             this.tabWaitingPatients.Location = new System.Drawing.Point(4, 34);
             this.tabWaitingPatients.Name = "tabWaitingPatients";
             this.tabWaitingPatients.Padding = new System.Windows.Forms.Padding(3);
-            this.tabWaitingPatients.Size = new System.Drawing.Size(792, 362);
+            this.tabWaitingPatients.Size = new System.Drawing.Size(792, 388);
             this.tabWaitingPatients.TabIndex = 3;
             this.tabWaitingPatients.Text = "Bekleyen Hastalar";
             this.tabWaitingPatients.UseVisualStyleBackColor = true;
@@ -143,7 +144,7 @@ namespace OptomoMedicalDevice
             this.tabPatientResults.Location = new System.Drawing.Point(4, 34);
             this.tabPatientResults.Name = "tabPatientResults";
             this.tabPatientResults.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPatientResults.Size = new System.Drawing.Size(792, 362);
+            this.tabPatientResults.Size = new System.Drawing.Size(792, 388);
             this.tabPatientResults.TabIndex = 4;
             this.tabPatientResults.Text = "Hasta Sonuclari";
             this.tabPatientResults.UseVisualStyleBackColor = true;
@@ -166,12 +167,28 @@ namespace OptomoMedicalDevice
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // btnLogOut
+            // 
+            this.btnLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnLogOut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnLogOut.Location = new System.Drawing.Point(710, 6);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(110, 29);
+            this.btnLogOut.TabIndex = 5;
+            this.btnLogOut.Text = "CIKIS YAP";
+            this.btnLogOut.UseVisualStyleBackColor = false;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(834, 488);
+            this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabCDeviceConnection);
             this.Name = "MainForm";
@@ -239,6 +256,7 @@ namespace OptomoMedicalDevice
         private WaitingPatientsControl waitingPatientsControl1;
         private PictureBox pictureBox1;
         private PatientResultsControl patientResultsControl1;
+        private Button btnLogOut;
     }
 
 }

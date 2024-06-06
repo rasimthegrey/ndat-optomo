@@ -8,7 +8,7 @@ git rm --cached OptomoMedicalDevice/obj/Debug/DesignTimeResolveAssemblyReference
 git rm --cached OptomoMedicalDevice/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 git rm --cached OptomoMedicalDevice/OptomoMedicalDevice.csproj.user
 OptomoMedicalDevice/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-.vs
+OptomoMedicalDevice/.vs/OptomoMedicalDevice/*
 *.suo
 **/obj/
 **/bin/
